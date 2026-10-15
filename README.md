@@ -2,8 +2,8 @@
 
 [![Submodule Updates](https://github.com/WormholeSystems/wormholesystems-containers/actions/workflows/update.yml/badge.svg)](https://github.com/WormholeSystems/wormholesystems-containers/actions/workflows/update.yml)
 [![wsctl](https://img.shields.io/github/v/release/WormholeSystems/wormholesystems-cli?label=wsctl)](https://github.com/WormholeSystems/wormholesystems-cli)
-[![App](https://img.shields.io/badge/app-WormholeSystems-blue)](https://github.com/WormholeSystems/WormholeSystems)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WormholeSystems/WormholeSystems/blob/main/LICENSE)
+[![App](https://img.shields.io/badge/app-WormholeSystems-blue)](https://github.com/WormholeSystems/wormholesystems-legacy)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WormholeSystems/wormholesystems-legacy/blob/main/LICENSE)
 
 Production-ready Docker stack for self-hosting [Wormhole Systems](https://wormhole.systems): Traefik with automatic SSL, frankenPHP, MySQL, Redis, Reverb websockets, queue worker and scheduler.
 
@@ -101,7 +101,7 @@ docker compose exec app php artisan tinker   # poke the app
 ## Related repositories
 
 - [wormholesystems-cli](https://github.com/WormholeSystems/wormholesystems-cli) — `wsctl`, the setup and management tool
-- [WormholeSystems](https://github.com/WormholeSystems/WormholeSystems) — the Laravel application
+- [wormholesystems-legacy](https://github.com/WormholeSystems/wormholesystems-legacy) — the Laravel application
 
 ## License
 
