@@ -1,9 +1,9 @@
 # Wormhole Systems — Container Stack
 
-[![Submodule Updates](https://github.com/WormholeSystems/wormholesystems-containers/actions/workflows/update.yml/badge.svg)](https://github.com/WormholeSystems/wormholesystems-containers/actions/workflows/update.yml)
-[![wsctl](https://img.shields.io/github/v/release/WormholeSystems/wormholesystems-cli?label=wsctl)](https://github.com/WormholeSystems/wormholesystems-cli)
-[![App](https://img.shields.io/badge/app-WormholeSystems-blue)](https://github.com/WormholeSystems/wormholesystems-legacy)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WormholeSystems/wormholesystems-legacy/blob/main/LICENSE)
+[![Submodule Updates](https://github.com/wormholesystems/wormholesystems-containers/actions/workflows/update.yml/badge.svg)](https://github.com/wormholesystems/wormholesystems-containers/actions/workflows/update.yml)
+[![wsctl](https://img.shields.io/github/v/release/wormholesystems/wormholesystems-cli?label=wsctl)](https://github.com/wormholesystems/wormholesystems-cli)
+[![App](https://img.shields.io/badge/app-WormholeSystems-blue)](https://github.com/wormholesystems/wormholesystems-legacy)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/wormholesystems/wormholesystems-legacy/blob/main/LICENSE)
 
 Production-ready Docker stack for self-hosting [Wormhole Systems](https://wormhole.systems): Traefik with automatic SSL, frankenPHP, MySQL, Redis, Reverb websockets, queue worker and scheduler.
 
@@ -15,7 +15,7 @@ Production-ready Docker stack for self-hosting [Wormhole Systems](https://wormho
 
 ## Setup
 
-The recommended way is [`wsctl`](https://github.com/WormholeSystems/wormholesystems-cli), the interactive setup wizard:
+The recommended way is [`wsctl`](https://github.com/wormholesystems/wormholesystems-cli), the interactive setup wizard:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://install.wormhole.systems | sh
@@ -29,7 +29,7 @@ There is also a local test mode (no SSL, localhost) for trying things out on a w
 <summary><strong>Manual setup</strong> (what the wizard automates)</summary>
 
 ```bash
-git clone --recurse-submodules https://github.com/WormholeSystems/wormholesystems-containers.git
+git clone --recurse-submodules https://github.com/wormholesystems/wormholesystems-containers.git
 cd wormholesystems-containers
 
 # 1. Docker + Laravel configuration — fill in domains, ACME email, EVE
@@ -100,8 +100,8 @@ docker compose exec app php artisan tinker   # poke the app
 
 ## Related repositories
 
-- [wormholesystems-cli](https://github.com/WormholeSystems/wormholesystems-cli) — `wsctl`, the setup and management tool
-- [wormholesystems-legacy](https://github.com/WormholeSystems/wormholesystems-legacy) — the Laravel application
+- [wormholesystems-cli](https://github.com/wormholesystems/wormholesystems-cli) — `wsctl`, the setup and management tool
+- [wormholesystems-legacy](https://github.com/wormholesystems/wormholesystems-legacy) — the Laravel application
 
 ## License
 
